@@ -1,0 +1,55 @@
+
+/* RESET */*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* FINE RESET */
+
+/* HEADER */
+header {
+  height: 250px;
+  background: yellow;
+  margin: 10px 10px;
+}
+/* FINE HEADER */
+
+/* MAIN */
+main {
+  margin: 10px 10px;
+}
+main::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+main .col {
+  float: left;
+}
+main .col-left,
+main .col-right {
+  background: pink;
+  width: 25%;
+  height: 500px;
+}
+main .col-center {
+  background: blue;
+  width: 50%;
+  height: 800px;
+}
+/* FINE MAIN */
+
+/* INIZIO FOOTER */
+footer {
+  height: 180px;
+  background: purple;
+}
+footer {
+  margin: 10px 10px;
+}
+
+
+
+
+
+/* FINE MAIN */
